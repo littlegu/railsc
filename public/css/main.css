@@ -38,6 +38,8 @@ h1 { margin: 20px 0 0; text-align: center; color: #727272; }
 /* Footer
 -----------------------------------------------------------------------------*/
 #footer {
-  width: 990px; margin: -100px auto 0; height: 100px; position: relative; padding: 0 15px;
+  width: 990px; margin: -120px auto 0; height: 120px; position: relative; padding: 0 15px; text-align: center;
   -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
 }
+#footer .content- { border-top: 1px dashed #ccc; padding-top: 25px; }
+#footer img { display: inline-block; vertical-align: middle; margin: 0 30px; }
