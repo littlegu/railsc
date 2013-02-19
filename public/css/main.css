@@ -28,9 +28,10 @@ input { vertical-align: middle; }
 
 /* Header
 -----------------------------------------------------------------------------*/
-#header { padding: 0 0 20px; margin: 0 0 35px; border-bottom: 1px dashed #e9e7e7; }
+#header { padding: 0 0 20px; margin: 0 0 35px; border-bottom: 1px dashed #e9e7e7; text-align: center; }
+.h-img { display: inline-block; vertical-align: middle; margin: 0 25px; }
 .logo { display: block; margin: 15px auto; }
-h1 { margin: 15px 0 0; text-align: center; font-size: 30px; }
+h1 { margin: 15px 0 0; font-size: 30px; }
 
 /* Middle
 -----------------------------------------------------------------------------*/
@@ -50,8 +51,7 @@ p { margin: 0 0 15px; }
 /* Footer
 -----------------------------------------------------------------------------*/
 #footer {
-  width: 990px; margin: -120px auto 0; height: 120px; position: relative; padding: 0 15px; text-align: center;
+  width: 990px; margin: -80px auto 0; height: 80px; position: relative; padding: 0 15px;
   -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
 }
-#footer .content- { border-top: 1px dashed #ccc; padding-top: 25px; }
-.f-img { display: inline-block; vertical-align: middle; margin: 0 25px; }
+#footer .content- { border-top: 1px dashed #ccc; padding-top: 15px; }
