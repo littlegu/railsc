@@ -1,1 +1,18 @@
 .resume-form { margin: 0 0 15px; padding: 10px 15px 1px; background: #fafafa; border: 1px solid #eee; border-radius: 3px; }
+.ss-form-entry { margin: 0 0 20px; }
+.ss-q-item-label { display: block; margin: 0 0 10px; }
+.ss-q-title { font-size: 20px; }
+.ss-required-asterisk { color: #ce1957; }
+.ss-q-help { font-size: 14px; font-style: italic; }
+.ss-q-short,
+.ss-q-long {
+  border: 1px solid #eee; padding: 5px; width: 100%;
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+.ss-q-long { height: 200px; }
+.ss-select select { border: 1px solid #eee; padding: 5px; }
+.ss-choices { list-style: none; margin: 0; padding: 0; }
+.ss-choice-item { margin: 0; padding: 0; }
+.ss-q-checkbox { margin: -3px 3px 0 0; }
+.ss-navigate { text-align: center; }
+#ss-submit {  }
