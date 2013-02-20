@@ -15,4 +15,5 @@
 .ss-choice-item { margin: 0; padding: 0; }
 .ss-q-checkbox { margin: -3px 3px 0 0; }
 .ss-navigate { text-align: center; }
-#ss-submit {  }
+#ss-submit { color: #333; font-size: 24px; padding: 3px 45px; }
+.ss-logo { position: relative; top: 6px; }
