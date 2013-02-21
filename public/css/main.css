@@ -29,6 +29,7 @@ input { vertical-align: middle; }
 /* Header
 -----------------------------------------------------------------------------*/
 #header { padding: 0 0 20px; margin: 0 0 35px; border-bottom: 1px dashed #e9e7e7; text-align: center; }
+
 .ap-sites { display: inline-block; vertical-align: middle; margin: 0 25px; overflow: hidden; }
 .aps-apress { width: 66px; height: 48px; background: url(../img/logo_abak.png) 0 -48px no-repeat; line-height: 50px; text-indent: 70px; }
 .aps-puls { width: 164px; height: 28px; background: url(../img/logo_pulscen.png) 0 -28px no-repeat; line-height: 30px; text-indent: 170px; }
@@ -42,7 +43,7 @@ h1 { margin: 15px 0 0; font-size: 30px; }
 
 /* Middle
 -----------------------------------------------------------------------------*/
-#content { padding: 0 0 60px; }
+#content { padding: 0 30px 200px; }
 h2 { font-size: 24px; font-weight: normal; margin: 35px 0 15px; }
 h3 { font-size: 20px; font-weight: normal; margin: 35px 0 15px; }
 h4 { font-size: 16px; margin: 15px 0; }
@@ -58,7 +59,20 @@ p { margin: 0 0 15px; }
 /* Footer
 -----------------------------------------------------------------------------*/
 #footer {
-  width: 990px; margin: -80px auto 0; height: 80px; position: relative; padding: 0 15px; text-align: center;
+  width: 990px; margin: -220px auto 0; height: 220px; position: relative; padding: 0 15px; text-align: center;
   -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
 }
 #footer .content- { border-top: 1px dashed #ccc; padding-top: 15px; }
+.prog-sites { padding: 10px 0 0; }
+.p-sites { display: inline-block; vertical-align: middle; margin: 0 25px 20px; overflow: hidden; }
+.ps-ruby { width: 152px; height: 50px; background: url(../img/progs/ruby.png) 0 0 no-repeat; line-height: 50px; text-indent: 160px; }
+.ps-rails { width: 39px; height: 50px; background: url(../img/progs/rails.png) 0 0 no-repeat; line-height: 50px; text-indent: 40px; }
+.ps-unicorn { width: 114px; height: 30px; background: url(../img/progs/unicorn.png) 0 0 no-repeat; line-height: 30px; text-indent: 120px; }
+.ps-nginx { width: 150px; height: 50px; background: url(../img/progs/nginx.gif) 0 0 no-repeat; line-height: 50px; text-indent: 150px; }
+.ps-capistrano { width: 101px; height: 23px; background: url(../img/progs/capistrano.png) 0 0 no-repeat; line-height: 30px; text-indent: 110px; }
+.ps-memcache { width: 50px; height: 50px; background: url(../img/progs/memcached.png) 0 0 no-repeat; line-height: 50px; text-indent: 50px; }
+.ps-redis { width: 93px; height: 30px; background: url(../img/progs/redis.png) 0 0 no-repeat; line-height: 30px; text-indent: 100px; }
+.ps-postgresql { width: 116px; height: 40px; background: url(../img/progs/postgresql.png) 0 0 no-repeat; line-height: 40px; text-indent: 120px; }
+.ps-gentoo { width: 38px; height: 40px; background: url(../img/progs/gentoo.png) 0 0 no-repeat; line-height: 40px; text-indent: 40px; }
+.ps-kvm { width: 129px; height: 40px; background: url(../img/progs/kvm.png) 0 0 no-repeat; line-height: 40px; text-indent: 130px; }
+.ps-glusterfs { width: 177px; height: 40px; background: url(../img/progs/glusterfs.png) 0 0 no-repeat; line-height: 40px; text-indent: 180px; }
