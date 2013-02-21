@@ -29,7 +29,14 @@ input { vertical-align: middle; }
 /* Header
 -----------------------------------------------------------------------------*/
 #header { padding: 0 0 20px; margin: 0 0 35px; border-bottom: 1px dashed #e9e7e7; text-align: center; }
-.h-img { display: inline-block; vertical-align: middle; margin: 0 25px; }
+.ap-sites { display: inline-block; vertical-align: middle; margin: 0 25px; overflow: hidden; }
+.aps-apress { width: 66px; height: 48px; background: url(../img/logo_abak.png) 0 -48px no-repeat; line-height: 50px; text-indent: 70px; }
+.aps-puls { width: 164px; height: 28px; background: url(../img/logo_pulscen.png) 0 -28px no-repeat; line-height: 30px; text-indent: 170px; }
+.aps-blizko { width: 140px; height: 27px; background: url(../img/logo_blizko.png) 0 -27px no-repeat; line-height: 30px; text-indent: 140px; }
+.aps-lookmart { width: 175px; height: 34px; background: url(../img/logo_lookmart.png) 0 -34px no-repeat; line-height: 40px; text-indent: 180px; }
+.aps-dk { width: 101px; height: 43px; background: url(../img/logo_dk.png) 0 -43px no-repeat; line-height: 50px; text-indent: 110px; }
+.ap-sites:hover { background-position: 0 0; }
+
 .logo { display: block; margin: 25px auto 15px; }
 h1 { margin: 15px 0 0; font-size: 30px; }
 
