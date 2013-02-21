@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ru" xml:lang="ru" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+  <title>resume — rails c</title>
+  <meta content="rails c" name="description">
+  <link href="favicon.ico" rel="shortcut icon" type="image/x-icon">
+  <link href="css/main.css" media="all" rel="stylesheet" />
+  <link href="css/main.css" media="all" rel="stylesheet" />
+  <link href="css/resume.css" media="all" rel="stylesheet" />
+</head>
+<body>
+<div id="wrapper">
+
+  <header id="header">
+
+    <div class="content-">
+      <a href="http://www.apress.ru/" title="Абак-Пресс" class="ap-sites aps-apress">Абак-Пресс</a>
+      <a href="http://www.pulscen.ru/" title="Пульс Цен" class="ap-sites aps-puls">Пульс Цен</a>
+      <a href="http://www.blizko.ru/" title="Blizko.RU" class="ap-sites aps-blizko">Blizko.RU</a>
+      <a href="http://www.lookmart.ru/" title="LookMart" class="ap-sites aps-lookmart">LookMart</a>
+      <a href="http://www.dkvartal.ru/" title="Деловой квартал" class="ap-sites aps-dk">Деловой квартал</a>
+    </div>
+
+    <a href="index.html"><img src="img/gcat.png" class="logo" alt="" width="118" height="146"></a>
+    <h1>Только ruby way, только хардкор</h1>
+  </header>
+
+  <div id="content">
+
+    <h2>Хотите работать с нами?</h2>
+    <p>Напишите о себе, своем опыте и навыках, сопроводив рассказ ссылками на выполненные работы.</p>
+    <form class="resume-form" method="POST" target="_blank" action="https://docs.google.com/forms/d/1LJ6IBX00-to7ZhPwc2_xPy6JPMzflnKSH7YiltXkmsA/formResponse" id="ss-form" target="GoogleResponse" onsubmit="">
+      <div class="errorbox-good">
+        <div dir="ltr" class="ss-item ss-item-required ss-text"><div class="ss-form-entry"><label class="ss-q-item-label" for="entry_455193533"><div class="ss-q-title">Ваше имя
+          <label for="itemView.getDomIdToLabel()" aria-label="Обязательное поле"></label>
+          <span class="ss-required-asterisk">*</span></div>
+          <div class="ss-q-help" dir="ltr">Как нам обращаться к вам при первом знакомстве</div></label>
+          <input type="text" name="entry.455193533" value="" class="ss-q-short" id="entry_455193533" dir="auto" aria-required="true">
+        </div></div></div> <div class="errorbox-good">
+      <div dir="ltr" class="ss-item ss-item-required ss-select"><div class="ss-form-entry"><label class="ss-q-item-label" for="entry_1857234522"><div class="ss-q-title">Заинтересовавшая вакансия
+        <label for="itemView.getDomIdToLabel()" aria-label="Обязательное поле"></label>
+        <span class="ss-required-asterisk">*</span></div>
+        <div class="ss-q-help" dir="ltr"></div></label>
+        <select name="entry.1857234522" id="entry_1857234522" aria-required="true"><option value=""></option>
+          <option value="Web-&#1088;&#1072;&#1079;&#1088;&#1072;&#1073;&#1086;&#1090;&#1095;&#1080;&#1082; (ruby, python)">Web-разработчик (ruby, python)</option> <option value="Front-end &#1088;&#1072;&#1079;&#1088;&#1072;&#1073;&#1086;&#1090;&#1095;&#1080;&#1082;">Front-end разработчик</option> <option value="&#1052;&#1077;&#1085;&#1077;&#1076;&#1078;&#1077;&#1088; &#1087;&#1088;&#1086;&#1077;&#1082;&#1090;&#1072;">Менеджер проекта</option></select></div></div></div> <div class="errorbox-good">
+      <div dir="ltr" class="ss-item ss-item-required ss-paragraph-text"><div class="ss-form-entry"><label class="ss-q-item-label" for="entry_411864691"><div class="ss-q-title">Опыт работы
+        <label for="itemView.getDomIdToLabel()" aria-label="Обязательное поле"></label>
+        <span class="ss-required-asterisk">*</span></div>
+        <div class="ss-q-help" dir="ltr">Укажите опыт работы, который может оказаться полезным для выбранной вакансии. Ссылки на выполненные проекты будут не лишними.</div></label>
+        <textarea name="entry.411864691" rows="8" cols="0" class="ss-q-long" id="entry_411864691" dir="auto" aria-required="true"></textarea>
+      </div></div></div> <div class="errorbox-good">
+      <div dir="ltr" class="ss-item ss-item-required ss-paragraph-text"><div class="ss-form-entry"><label class="ss-q-item-label" for="entry_1735121700"><div class="ss-q-title">Дополнительная информация о себе
+        <label for="itemView.getDomIdToLabel()" aria-label="Обязательное поле"></label>
+        <span class="ss-required-asterisk">*</span></div>
+        <div class="ss-q-help" dir="ltr">Умеете гадать по чужому коду? Обладаете навыками игры на нервах? Катаетесь на сноуборде или играете в настольный хоккей? А может быть ведете блог? Нам интересно все!</div></label>
+        <textarea name="entry.1735121700" rows="8" cols="0" class="ss-q-long" id="entry_1735121700" dir="auto" aria-required="true"></textarea>
+      </div></div></div> <div class="errorbox-good">
+      <div dir="ltr" class="ss-item ss-item-required ss-text"><div class="ss-form-entry"><label class="ss-q-item-label" for="entry_1091645290"><div class="ss-q-title">Телефон
+        <label for="itemView.getDomIdToLabel()" aria-label="Обязательное поле"></label>
+        <span class="ss-required-asterisk">*</span></div>
+        <div class="ss-q-help" dir="ltr"></div></label>
+        <input type="text" name="entry.1091645290" value="" class="ss-q-short" id="entry_1091645290" dir="auto" aria-required="true">
+      </div></div></div> <div class="errorbox-good">
+      <div dir="ltr" class="ss-item ss-item-required ss-text"><div class="ss-form-entry"><label class="ss-q-item-label" for="entry_1497734552"><div class="ss-q-title">Адрес эл.почты
+        <label for="itemView.getDomIdToLabel()" aria-label="Обязательное поле"></label>
+        <span class="ss-required-asterisk">*</span></div>
+        <div class="ss-q-help" dir="ltr">На случай, если мы очень захотим с вами связаться, но не дозвонимся</div></label>
+        <input type="text" name="entry.1497734552" value="" class="ss-q-short" id="entry_1497734552" dir="auto" aria-required="true">
+      </div></div></div> <div class="errorbox-good">
+      <div dir="ltr" class="ss-item ss-item-required ss-checkbox"><div class="ss-form-entry"><label class="ss-q-item-label" for="entry_1131541244"><div class="ss-q-title">Подтвердите, что вы не робот
+        <label for="itemView.getDomIdToLabel()" aria-label="Обязательное поле"></label>
+        <span class="ss-required-asterisk">*</span></div>
+        <div class="ss-q-help" dir="ltr"></div></label>
+        <ul class="ss-choices"><li class="ss-choice-item"><label><input type="checkbox" name="entry.2066714032" value="&#1071; &#1085;&#1077; &#1088;&#1086;&#1073;&#1086;&#1090;" id="group_2066714032_1" class="ss-q-checkbox">
+          <label class="ss-choice-label" for="group_2066714032_1">Я не робот</label></label></li></ul></div></div></div>
+      <input type="hidden" name="draftResponse" value="[]">
+      <input type="hidden" name="pageHistory" value="0">
+
+
+      <div class="ss-item ss-navigate"><div class="ss-form-entry">
+        <input type="submit" name="submit" value="&#1043;&#1086;&#1090;&#1086;&#1074;&#1086;" id="ss-submit"></div></div>
+    </form>
+    <p>
+      <span class="powered-by-text">На платформе</span>
+      <a class="ss-logo-link" href="http://docs.google.com" target="_blank"><img class="ss-logo" src="http://ssl.gstatic.com/docs/forms/drive_logo_small.png" alt="Google Диск"></a>
+    </p>
+    <!--iframe src="https://docs.google.com/forms/d/1LJ6IBX00-to7ZhPwc2_xPy6JPMzflnKSH7YiltXkmsA/viewform?embedded=true" width="100%" height="1050" frameborder="0" marginheight="0" marginwidth="0">Загрузка...</iframe-->
+
+  </div>
+
+</div>
+
+<footer id="footer">
+  <div class="content-">
+    1992–2013 © Абак-Пресс
+  </div>
+</footer>
+
+<script src="http://yandex.st/jquery/1.7.2/jquery.min.js"></script>
+<script>
+  if (!window.jQuery) {
+    document.write('<scr' + 'ipt src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></s' + 'cript>');
+  }
+</script>
+<script src="js/main.js"></script>
+<script type='text/javascript' src='https://docs.google.com/static/forms/client/js/3090771720-formviewer_prd.js'></script>
+<script type="text/javascript">
+  _initFormViewer();
+</script>
+</body>
+</html>
