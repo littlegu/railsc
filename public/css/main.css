@@ -31,15 +31,13 @@ input { vertical-align: middle; }
 #header { padding: 0 0 20px; margin: 0 0 35px; border-bottom: 1px dashed #e9e7e7; text-align: center; }
 
 .ap-sites { display: inline-block; vertical-align: middle; margin: 0 25px; overflow: hidden; }
-.aps-apress { width: 66px; height: 48px; background: url(../img/logo_abak.png) 0 -48px no-repeat; line-height: 50px; text-indent: 70px; }
-.aps-puls { width: 164px; height: 28px; background: url(../img/logo_pulscen.png) 0 -28px no-repeat; line-height: 30px; text-indent: 170px; }
-.aps-blizko { width: 140px; height: 27px; background: url(../img/logo_blizko.png) 0 -27px no-repeat; line-height: 30px; text-indent: 140px; }
-.aps-lookmart { width: 175px; height: 34px; background: url(../img/logo_lookmart.png) 0 -34px no-repeat; line-height: 40px; text-indent: 180px; }
-.aps-dk { width: 101px; height: 43px; background: url(../img/logo_dk.png) 0 -43px no-repeat; line-height: 50px; text-indent: 110px; }
-.ap-sites:hover { background-position: 0 0; }
+.aps-apress { width: 66px; height: 48px; background: url(../img/logo_abak.png) 0 0 no-repeat; line-height: 50px; text-indent: 70px; }
+.aps-puls { width: 164px; height: 28px; background: url(../img/logo_pulscen.png) 0 0 no-repeat; line-height: 30px; text-indent: 170px; }
+.aps-blizko { width: 140px; height: 27px; background: url(../img/logo_blizko.png) 0 0 no-repeat; line-height: 30px; text-indent: 140px; }
+.aps-lookmart { width: 175px; height: 34px; background: url(../img/logo_lookmart.png) 0 0 no-repeat; line-height: 40px; text-indent: 180px; }
+.aps-dk { width: 101px; height: 43px; background: url(../img/logo_dk.png) 0 0 no-repeat; line-height: 50px; text-indent: 110px; }
 
-.logo { display: block; margin: 25px auto 15px; }
-h1 { margin: 15px 0 0; font-size: 30px; }
+h1 { margin: 25px 0 0; font-size: 30px; }
 
 /* Middle
 -----------------------------------------------------------------------------*/
@@ -76,3 +74,6 @@ p { margin: 0 0 15px; }
 .ps-gentoo { width: 38px; height: 40px; background: url(../img/progs/gentoo.png) 0 0 no-repeat; line-height: 40px; text-indent: 40px; }
 .ps-kvm { width: 129px; height: 40px; background: url(../img/progs/kvm.png) 0 0 no-repeat; line-height: 40px; text-indent: 130px; }
 .ps-glusterfs { width: 177px; height: 40px; background: url(../img/progs/glusterfs.png) 0 0 no-repeat; line-height: 40px; text-indent: 180px; }
+
+.kitty { position: fixed; bottom: -190px; right: -169px; width: 169px; height: 190px; background: url(../img/kitties.png) 0 -190px no-repeat; }
+.kitty.gohome- { background-position: 0 0; }
