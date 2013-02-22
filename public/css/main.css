@@ -37,7 +37,7 @@ input { vertical-align: middle; }
 .aps-lookmart { width: 175px; height: 34px; background: url(../img/logo_lookmart.png) 0 0 no-repeat; line-height: 40px; text-indent: 180px; }
 .aps-dk { width: 101px; height: 43px; background: url(../img/logo_dk.png) 0 0 no-repeat; line-height: 50px; text-indent: 110px; }
 
-h1 { margin: 25px 0 0; font-size: 30px; }
+h1 { margin: 25px 0 0; font-size: 30px; color: #444; }
 
 /* Middle
 -----------------------------------------------------------------------------*/
