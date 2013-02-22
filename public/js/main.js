@@ -12,10 +12,13 @@ function kitty() {
       var $this = $(this);
       $this.addClass('gohome-');
       setTimeout(function() {
+        $this.removeClass('gohome-');
+      }, 600);
+      setTimeout(function() {
         $this.animate({
           bottom: "-" +  + $this.height()
         }, 1000);
-      }, 1000);
+      }, 1300);
     });
 }
 
