@@ -114,5 +114,16 @@ p { margin: 0 0 15px; }
 .ps-kvm { width: 129px; height: 40px; background: url(../img/progs/kvm.png) 0 0 no-repeat; line-height: 40px; text-indent: 130px; }
 .ps-glusterfs { width: 177px; height: 40px; background: url(../img/progs/glusterfs.png) 0 0 no-repeat; line-height: 40px; text-indent: 180px; }
 
-.kitty { position: fixed; bottom: -190px; right: -169px; width: 169px; height: 190px; background: url(../img/kitties.png) 0 -190px no-repeat; }
-.kitty.gohome- { background-position: 0 0; }
+.kitty { position: fixed; bottom: -160px; right: -160px; width: 160px; height: 160px; background: url(../img/kitty-dancing.png) 0 0 no-repeat; }
+.k-meow { position: absolute; width: 94px; height: 72px; top: -29px; left: 0; display: none; background: url(../img/kitty-dancing.png) 0 -160px no-repeat; }
+.k-hands { position: absolute; width: 49px; height: 21px; top: 72px; left: 68px; background: url(../img/kitty-dancing.png) -94px -160px no-repeat; }
+.kitty.meow .k-meow { display: block; }
+
+.step-1 .k-hands { background-position: -94px -160px; }
+.step-2 .k-hands { background-position: -94px -179px; }
+.step-3 .k-hands { background-position: -94px -199px; }
+.step-4 .k-hands { background-position: -94px -219px; }
+.step-5 .k-hands { background-position: -94px -239px; }
+.step-6 .k-hands { background-position: -94px -259px; }
+.step-7 .k-hands { background-position: -94px -279px; }
+.step-8 .k-hands { background-position: -94px -300px; }
