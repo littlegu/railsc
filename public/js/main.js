@@ -59,6 +59,17 @@ function kittyActivity() {
     });
 }
 
+function yaShare() {
+  new Ya.share({
+    element: 'js-ya-share',
+    l10n: 'ru',
+    elementStyle: {
+      'type': 'icon',
+      'quickServices': ['yaru', 'vkontakte', 'facebook', 'twitter', 'linkedin', 'surfingbird', 'gplus']
+    }
+  });
+}
+
 $doc.ready(function() {
 
   /* Раскрывающиеся вакансии */
@@ -68,6 +79,8 @@ $doc.ready(function() {
   
   /* Замена спанов мылом */
   $('.js-job-mail').replaceWith('<a href="ma' + 'ilt' + 'o:job@rai' + 'lsc.' + 'ru">jo' + 'b@r' + 'ail' + 'sc.ru</a>');
+
+  yaShare();
 
   /* Активность котика */
   kittyActivity();

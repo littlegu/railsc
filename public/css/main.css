@@ -93,6 +93,10 @@ p { margin: 0 0 15px; }
     background: linear-gradient(to bottom, #f3f3f3 2%,#f2f2f2 2%,#ebebeb 50%,#dddddd 51%,#cfcfcf 98%,#f3f3f3 98%); /* W3C */
 }
 
+.ya-share { position: relative; left: -6px; }
+.b-share-icon { background-image: url("http://yandex.st/share/static/b-share-icon.png") !important; }
+.b-share-popup { font-size: 12px; }
+
 /* Footer
 -----------------------------------------------------------------------------*/
 #footer {

@@ -8,6 +8,16 @@
   <meta content="rails c" name="description">
   <link href="favicon.ico" rel="shortcut icon" type="image/x-icon">
   <link href="css/main.css" media="all" rel="stylesheet" />
+  <!--[if lt IE 9]>
+    <script>
+      document.createElement('header');
+      document.createElement('nav');
+      document.createElement('section');
+      document.createElement('article');
+      document.createElement('aside');
+      document.createElement('footer');
+    </script>
+  <![endif]-->
   <script type="text/javascript">
     var _gaq = _gaq || [];
     _gaq.push(['_setAccount', 'UA-8321819-4']);
@@ -202,6 +212,8 @@
       <h2>Звоните, пишите!</h2>
       <p>Если вы не уверены в своем нынешнем опыте и знаниях, но хотите работать у нас и готовы быстро учиться —
         высылайте свое резюме на <span class="js-job-mail"></span> и мы его обязательно рассмотрим.</p>
+
+      <div id="js-ya-share" class="ya-share"></div>
     </div>
 
   </div>
@@ -234,18 +246,9 @@
   <script>
     if (!window.jQuery) {
       document.write('<scr' + 'ipt src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></s' + 'cript>');
-    };
+    }
   </script>
-  <!--[if lt IE 9]>
-    <script>
-      document.createElement('header');
-      document.createElement('nav');
-      document.createElement('section');
-      document.createElement('article');
-      document.createElement('aside');
-      document.createElement('footer');
-    </script>
-  <![endif]-->
+  <script type="text/javascript" src="http://yandex.st/share/share.js" charset="utf-8"></script>
   <script src="js/main.js"></script>
 </body>
 </html>
