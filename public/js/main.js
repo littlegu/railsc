@@ -22,6 +22,7 @@ var
     
     stop: function() {
       clearInterval(kitty._move);
+      kitty.body.attr('class', 'kitty');
     },
     
     _move: null
