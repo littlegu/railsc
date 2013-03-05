@@ -71,6 +71,33 @@ function yaShare() {
   });
 }
 
+/*
+  Вакансии обновляются каждый понедельник :)
+  Раз вы это читаете, то, возможно, нам подходите!
+  Ждем ваше резюме http://www.railsc.ru/job
+*/
+function addDate() {
+  var
+    months = ['января', 'февраля', 'марта', 'апреля', 'мая', 'июня', 'июля', 'августа', 'сентября', 'октября', 'ноября', 'декабря'],
+    currentTime = new Date(),
+    currentDay = currentTime.getDay(),
+    currentDate = currentTime.getDate(),
+    currentMonth = months[currentTime.getMonth()],
+    currentYear = currentTime.getFullYear(),
+    mondayDate = currentDate,
+    mondayMonth = currentMonth,
+    mondayYear = currentYear;
+
+  if (currentDay != 1) {
+    currentTime.setDate(currentDate - currentDay + 1);
+    mondayDate = currentTime.getDate();
+    mondayMonth = months[currentTime.getMonth()];
+    mondayYear = currentTime.getFullYear();
+  }
+
+  $('.js-va').replaceWith('<p class="updated-at">Обновлено ' + mondayDate + ' ' + mondayMonth + ' ' + mondayYear + ' г.</p>');
+}
+
 $doc.ready(function() {
 
   /* Раскрывающиеся вакансии */
